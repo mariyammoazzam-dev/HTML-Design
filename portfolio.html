@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CodeVerse</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #0f172a, #8a1e49);
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#f838e8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+}
+
+.hero h1{
+    font-size:65px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:700px;
+    margin-bottom:30px;
+}
+
+.btn{
+    padding:15px 35px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:#8a1e88;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:60px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:30px;
+    width:300px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">CodeVerse</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to CodeVerse</h1>
+    <p>
+        Build modern websites with creativity, innovation,
+        and cutting-edge web technologies.
+    </p>
+
+    <a href="#" class="btn">Explore More</a>
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h2>⚡ Fast</h2>
+        <p>Optimized and responsive web experiences.</p>
+    </div>
+
+    <div class="card">
+        <h2>🎨 Creative</h2>
+        <p>Modern UI designs with stunning visuals.</p>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Powerful</h2>
+        <p>Advanced web solutions for every project.</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 CodeVerse | Designed by Web Engineer
+</footer>
+
+</body>
+</html>
